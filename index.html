@@ -264,10 +264,20 @@
         
 
         .about-img img {
-            border-radius: 6px;
-            width: 450px;
-            transition: transform 0.5s ease;
+            width: 100%;
+  max-width: 400px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;  
+        transition: transform 0.5s ease;
         }
+        @media(max-width:500px){
+          .about-img img {
+    max-width: 90%;
+  }
+}
 
         .about-img img:hover {
             transform: scale(1.05);
