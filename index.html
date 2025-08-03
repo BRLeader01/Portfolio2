@@ -47,13 +47,13 @@
             display: block;
         }
 
-        @media(max-width:600px){
+        @media(max-width:460px){
         img {
             width:100%;
             height: auto;
             display: block;
         }
-        @media (max-width: 500px) {
+        @media (max-width: 460px) {
     .about-img img {
         width: 100%;   
         height: auto; 
@@ -273,7 +273,7 @@
   margin: 0 auto;  
         transition: transform 0.5s ease;
         }
-        @media(max-width:500px){
+        @media(max-width:460px){
           .about-img img {
     max-width: 90%;
   }
@@ -359,13 +359,13 @@
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
             gap: 2rem;
         }
-        @media (max-width: 900px) {
+        @media (max-width: 460px) {
   .card {
     width: 45%;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 460px) {
   .card {
     width: 100%;
   }
@@ -555,11 +555,32 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
           .skill-header span {
     font-size: 1.3rem;
   }
+  .hire{
+    height: 400px;
+    background-color: rgba(62, 155, 241, 0.527);
+  }
+  .line{
+    padding: 150px;
+    text-align: center;
+    font-size: 65px;
+
+  }
 
         /* Responsive Styles */
-        @media (max-width: 500px) {
+        @media (max-width: 460px) {
   .skill-header span {
     font-size: 0.9rem;
+  }
+  .hire {
+    height: auto; /* content ke according height */
+    padding: 40px 20px;
+    background-color: rgba(62, 155, 241, 0.527);
+  }
+
+  .line {
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 30px;
   }
 
   .skills-container {
@@ -595,7 +616,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             }
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 460px) {
             
             .nav-links {
                 position: fixed;
@@ -631,7 +652,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             }
         }
 
-        @media (max-width: 576px) {
+        @media (max-width: 460px) {
             .hero-text h1 {
                 font-size: 2.3rem;
             }
@@ -671,7 +692,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             <a href="#contact" class="btn">Hire Me</a>
         </div>
         <div class="hero-img">
-            <img src="/image/hero.jpg" alt="Developer">
+            <img src="/image/Adobe Express - file.png" alt="Developer">
         </div>
     </section>
 
@@ -681,7 +702,7 @@ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             <h2 class="section-title">Bio-Data</h2>
             <div class="about-content">
                 <div class="about-img">
-                    <img src="/image/mansoor.jpg" alt="About Me">
+                    <img src="/image/hero.jpg" alt="About Me">
                 </div>
                 <div class="about-text">
                     <h3>Frontend Developer & UI/UX Designer</h3>
@@ -822,6 +843,12 @@ I offer along with professional document formatting in MS Word, Excel, and Power
                 
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
+        </div>
+    </section>
+    <section>
+        <div class="hire">
+            <h1 class="line">I AM AVAILABLE FOR FREELANCING </h1>
+        
         </div>
     </section>
 
