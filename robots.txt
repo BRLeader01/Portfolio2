@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mansoor1155.netlify.app/sitemap.xml
